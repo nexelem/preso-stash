@@ -219,6 +219,27 @@
 				<section>
 					<h2>Process</h2>
 					<p>
+						<pre><code data-trim contenteditable>
+// clone your fork
+git clone https://test@stash.nexelem.com/scm/~test/test.git
+
+// add upstream (main repo)
+git remote add upstream https://test@stash.nexelem.com/scm/test/test.git
+
+// create your feature branch
+git branch new_feat
+git checkout new_feat
+git push --set-upstream origin new_feat
+
+// .... work (add, commit, etc)
+git push origin new_feat
+						</code></pre>
+					</p>
+				</section>
+				
+				<section>
+					<h2>Process</h2>
+					<p>
 						... the rest is as it's always been (commit, push, fetch, merge, rebase)
 					</p>
 				</section>
@@ -244,8 +265,27 @@
 				</section>
 
 				<section>
-					<h2>Demo</h2>
+					<h2>Demo 1</h2>
 					<p>
+						Overview, browsing repos, forks, code, commits
+					</p>
+				</section>
+				
+				<section>
+					<h2>Working with stash - key points</h2>
+					<p>
+						<ul>
+							<li>open PR right away and start pushing changes</li>
+							<li>don't worry about pushing things that are not ready</li>
+							<li>collaboration</li>
+						</ul>
+					</p>
+				</section>
+				
+				<section>
+					<h2>Demo 2</h2>
+					<p>
+						Committing code, merging, PR, collaboration
 					</p>
 				</section>
 				
